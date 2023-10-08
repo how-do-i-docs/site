@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""/>
+        <link rel="canonical" href="https://howdoidocs.sohalsdr.com" />
+
+        <!-- Page Title -->
+        <title>How Do I Docs?</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/assets/howdoidocs-logo-nobg.svg" type="image/x-icon">
+
+        <!-- CSS Imports -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/latex.css">
+        <link rel="stylesheet" href="/css/green.css">
+        <link rel="stylesheet" href="/css/woah.css">
+
+        <!-- JS Imports -->
+        <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+
+        <!-- Font Imports -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+
+    </head>
+
+    <body>
+        <!--Header -->
+        <h2><a href="/" style="text-decoration: none">How Do I Docs?</a></h2>
+        <section style="padding-top: 0rem;">
+            <p><small>Jump to:&nbsp;
+                <a href="/the-essentials">The Essentials</a> ·
+                <a href="/dive-deeper">Dive Deeper</a> ·
+                <a href="/deploy-it">Deploy It</a> ·
+                <a href="/what-next">What's Next</a>
+            </small></p>
+        </section>
+
+        <!-- Page Title -->
+        <section>
+            <h1>Dive Deeper</h1>
+            <p>In real-world open-source projects, there's a ton of essential documents for a project, from contributor codes of conducts to style guides.</p>
+            <p>However, <b>for the purposes of a quickly-built hackathon project</b>, we can start with just <b>a few pieces of general documentation</b>:</p>
+            <ul>
+                <li><a href="#readme">README</a></li>
+                <li><a href="#how-tos">How-Tos</a></li>
+                <li><a href="#overview">Overview</a></li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <!-- The README -->
+        <section style="padding: 2em">
+            <h2 id="readme">README</h2>
+            <p>If there's any type of documentation that you're likely familiar with, it's this one. It's your project's <b>first impression</b>, and is crucial to <b>enticing users to explore further</b>.</p>
+            <h3>A good README:</h3>
+            <ul>
+                <li><small>Provides an <b>introduction</b> to <b>what the project is</b>, <b>why it may be relevant to the reader</b>, and <b>how they can learn more</b></small></li>
+                <li><small>Is written in an <b>approachable</b> and <b>friendly</b> style, inviting the reader in</small></li>
+                <li><small>Utilizes an <b>active voice</b> with <b>strong verbs</b>, selling the reader (who could be a hackathon judge or future employer) on it</small></li>
+                <li><small>Focuses on the <b>value the project brings to a user</b>, not just what it can do</small></li>
+            </ul>
+            <h3>Some Resources:</h3>
+            <ul>
+                <li><small><a href="https://gitlab.com/tgdp/templates/-/blob/main/readme/guide-readme.md">The Good Docs Project's README guide</a></small></li>
+                <li><small><a href="https://github.com/ddbeck/readme-checklist/blob/main/checklist.md">Daniel Beck's README Checklist</a></small></li>
+                <li><small><a href="https://github.com/matiassingers/awesome-readme">Matias Singers's list of good README examples</a></small></li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <!-- How-Tos -->
+        <section style="padding: 2em">
+            <h2 id="how-tos">How-Tos</h2>
+            <p>An important type of document for projects, even small ones, to have is "how-tos" for essential tasks. One that every project should have is "how to set up a development environment for {project}". Other good ones may include:</p>
+            <ul>
+                <li><small>"How to deploy {project}'s backend"</small></li>
+                <li><small>"How to create an account on {project}"</small></li>
+                <li><small>"How to run {project} in debugging mode"</small></li>
+            </ul>
+            <p>Note that a <i>how-to</i> and a <i>tutorial</i> are different. How-tos focus on helping a <b>technically proficient</b> user <b>accomplish a certain task</b> effectively, while tutorials focus on teaching a <b>beginner</b> something <b>new</b>. At this stage of a project, a few good how-tos are helpful, not only for anybody trying to use or judge your project, but also for yourself when you sit down to work on improvements in a few weeks and remember nothing about how your project works internally.</p>
+            <h3>A good how-to:</h3>
+            <ul>
+                <li><small>Focuses on accomplishing a <b>single, distinct task</b></small></li>
+                <li><small>Assumes that users have <b>practical knowledge</b> of surrounding technologies (to keep things concise) and <b>states these assumptions</b> at the beginning.</small></li>
+                <li><small><b>Alerts the user</b> to any problems they may run into along the way</small></li>
+            </ul>
+            <h3>Some Resources:</h3>
+            <ul>
+                <li><small><a href="https://gitlab.com/tgdp/templates/-/blob/main/how-to/guide-how-to.md">The Good Docs Project's guide on writing a how-to</a></small></li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <!-- The Overview -->
+        <section style="padding: 2em">
+            <h2 id="overview">Overview</h2>
+            <p>While not many small open-source projects usually have a dedicated overview document, in the context of a hackathon, it makes a lot of sense.</p>
+            <p>An overview is a document that gives <b>a broad outline of your project's features and capabilities</b>. Importantly, it <b>pitches the reader on why they should care</b>. Writing an overview, and being able to draw on that as a resource to market and talk about your project, is crucial to ensuring <b>everyone is on the same page about why what you've built is important and innovative</b>.</p>
+            <h3>A good overview:</h3>
+            <ul>
+                <li><small>Is written with a <b>distinct audience in mind</b></small></li>
+                <ul>
+                    <li><small><i>Who is this project intended for? Is it someone in a certain role? Somebody with a certain problem to solve?</i></small></li>
+                </ul>
+                <li><small>Has <b>clear</b> and <b>concise</b> explanations of your project's <b>key functions</b></small></li>
+                <li><small>Makes a <b>strong case</b> for why the project is <b>important to the reader</b></small></li>
+            </ul>
+            <h3>Some Resources:</h3>
+            <ul>
+                <li><small><a href="https://gitlab.com/tgdp/templates/-/blob/main/overview/guide-overview.md">The Good Docs Project's overview guide</a></small></li>
+                <li><small><a href="https://developer.chrome.com/docs/native-client/overview/">A great overview example for Google's Native Client technology</a></small></li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <section>
+            <p>With just these three pieces of documentation, you'll substantially increase how much <b>potential users</b>, <b>hackathon judges</b>, and <b>future you</b> will understand your project. <b>Don't feel limited to this set, however!</b> While time is precious in a hackathon setting, if there's another type of documentation that makes sense to add, quickly write it up. It'll be a nice break for your brain, may unlock further inspiration or insights, and that information will likely come in handy in the future.</p>
+        </section>
+
+        <!-- Navigation -->
+        <section>
+            <p style="text-align:left;">
+                <!-- Back to Previous-->
+                <a href="/the-essentials">← <b>The Essentials</b></a>
+                <span style="float:right;">
+                    <!-- On to Next -->
+                    <a href="/deploy-it"><b>Deploy It!</b> →</a>
+                </span>
+            </p>
+        </section>
+    </body>
+</html>
