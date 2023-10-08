@@ -12,7 +12,7 @@
 <p align="center">
     <a href="https://github.com/how-do-i-docs/site"><strong>Site Source</strong></a>  ·
     <a href="https://github.com/how-do-i-docs/design"><strong>Design</strong></a>  ·
-  <a href=""><strong>Documentation</strong></a> ·
+  <a href="https://howdoidocs.tech/docs"><strong>Documentation</strong></a> ·
   <a href="https://github.com/how-do-i-docs/doc-templates"><strong>Templates</strong></a>
 </p>
 <br/>
