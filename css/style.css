@@ -2,7 +2,7 @@
 
 :root {
   /* Create a sans-serif font variable */
-    --serif-font: 'Libre Baskerville', Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif; 
+    --sans-font: Inter, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 html {
@@ -14,7 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     background-color: var(--background);
     color: var(--text-color);
     max-width: 1400px;
@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: 3.7rem;
