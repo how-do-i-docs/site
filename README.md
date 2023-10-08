@@ -12,7 +12,7 @@
 <p align="center">
     <a href="https://github.com/how-do-i-docs/site"><strong>Site Source</strong></a>  ·
     <a href="https://github.com/how-do-i-docs/design"><strong>Design</strong></a>  ·
-  <a href="https://howdoidocs.tech/docs"><strong>Documentation</strong></a> ·
+  <a href="https://docs.howdoidocs.tech"><strong>Documentation</strong></a> ·
   <a href="https://github.com/how-do-i-docs/doc-templates"><strong>Templates</strong></a>
 </p>
 <br/>
@@ -31,7 +31,7 @@ This site is a perfect resource for developers in time-constrained settings, lik
  
 - [Design Repository](https://github.com/how-do-i-docs/design)
 - [Templates Repository](https://github.com/how-do-i-docs/doc-templates)
-- [Documentation Site]()
+- [Documentation Site](https://docs.howdoidocs.tech)
 
 ## Terms of use
 
