@@ -27,11 +27,23 @@ Too often, hackathon projects are left entirely undocumented, meaning that they 
 This site is a perfect resource for developers in time-constrained settings, like hackathons, that aren't familiar with documenting projects and want a simple resource that provides clear directions for getting from zero to bare minimum
 
 
+## What this site is built on
+
+This site is written with good old HTML and CSS, themed wth my heavily modified version of [tufte-css](https://edwardtufte.github.io/tufte-css/).
+
+
 ## Additional Resources
  
 - [Design Repository](https://github.com/how-do-i-docs/design)
 - [Templates Repository](https://github.com/how-do-i-docs/doc-templates)
 - [Documentation Site](https://docs.howdoidocs.tech)
+
+## Credits
+
+- Logo based on writing emoji from [OpenMoji](https://openmoji.org)
+- Interface font used is Rasmus Andersson's [Inter](https://rsms.me/inter/)
+- Substantial content pulled from [The Good Docs Project](https://thegooddocsproject.dev)
+- Documentation site template is from [Just the Docs](https://github.com/just-the-docs/just-the-docs)
 
 ## Terms of use
 
